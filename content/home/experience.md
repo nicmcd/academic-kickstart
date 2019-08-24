@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 45  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -18,27 +18,58 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Senior Software Engineer"
+  company = "Google"
+  company_url = "https://ai.google/research/teams/network-systems/"
+  location = "Sunnyvale, California"
+  date_start = "2019-01-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+Designing, analyzing, and developing next generation high performance networks of all shapes and sizes.
+"""
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
+  title = "Research Scientist"
+  company = "Hewlett Packard Labs"
+  company_url = "https://www.labs.hpe.com"
+  location = "Fort Collins, Colorado"
   date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_end = "2018-12-31"
+  description = """
+I was a lead architect on design of a new high-performance network designed for large-scale high-performance computing (HPC) systems and massively parallel memory-driven computing (MDC) systems. I was the key designer of the Gen-Z routing architectural specification. Using a data-driven simulation approach I guided the design of a novel multi-chip module (MCM) switch architecture that utilizes co-packaged integrated photonics.
+"""
+
+[[experience]]
+  title = "Digital Hardware Design Engineer"
+  company = "L3 Communications"
+  company_url = "https://www2.l3t.com/csw/"
+  location = "Salt Lake City, Utah"
+  date_start = "2008-08-01"
+  date_end = "2012-09-01"
+  description = """
+Developed digital processing architectures for encryption, networking, and waveform data processing. Designed systems with strict requirements for high-performance, low-power, and low-area. All designs were meticulously scrutinized for high-reliability and signal integrity.
+"""
+
+#[[experience]]
+#  title = "Ph.D. Student"
+#  company = "Stanford University"
+#  company_url = "https://www.stanford.edu/ee"
+#  location = "Stanford, California"
+#  date_start = "2012-09-01"
+#  date_end = "2016-06-01"
+#  description = """
+#My Ph.D. thesis is on the design of a high performance distributed system architecture for secure service-oriented computing aiming to bridge the performance and security gap between supercomputing and cloud computing ([info here](publication/hpsoc_thesis/)). Other academic projects include an RTL architecture and implementation for accelerator multithreading and a real-time embedded control system for a power inverter design submitted to Google's LittleBox challenge.
+#"""
+
+#[[experience]]
+#  title = "B.S. & M.S. Student"
+#  company = "University of Utah"
+#  company_url = "https://www.ce.utah.edu/"
+#  location = "Salt Lake City, Utah"
+#  date_start = "2007-09-01"
+#  date_end = "2012-06-01"
+#  description = """
+#My academic focus was on computer architecture spanning from low-level logic design to high-level software systems. My academic projects include arbitration structures for high-radix routers, attacks on SSL and the public key infrastructure, precise time synchronization of 804.15.4 wireless networks, stabilization systems for autonomous helicopters, and a from stratch 32-bit RISC ISA and accompanying RTL processor implementation.
+#"""
 
 +++
