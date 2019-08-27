@@ -10,7 +10,7 @@ date: "2019-11-17T00:00:00Z"
 doi: "10.1145/3295500.3356151"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2018-11-17T00:00:00Z"
+publishDate: "2019-08-26T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -22,10 +22,10 @@ publication_types: ["1"]
 publication: In *The International Conference for High Performance Computing, Networking, Storage, and Analysis 2019*
 publication_short: In *SC19*
 
-abstract: <fix below here>The interconnection networks of modern large-scale computing systems are quickly increasing in size and complexity to keep up with the demand for computing capability. These systems rely heavily on complex router microarchitectures and intelligent adaptive routing algorithms structured for cost-optimized low-diameter networks. These technologies need to be properly modeled and evaluated during design space exploration and for performance characterization of the system. We present SuperSim, an open-source flit-level interconnection network simulator that enables focused evaluation of issues related to designing and deploying large-scale high-performance networks. SuperSim is a programmer-centric simulation framework explicitly designed to be flexibly extended and is supported by a number of tools making it easy to use and allowing users to model systems quickly. In this work we show the results for simulation case studies demonstrating the power of SuperSim to uncover otherwise overlooked details in large-scale interconnection networks.
+abstract: In efforts to increase performance and reduce cost, modern lowdiameter networks are designed for average case traffic and rely on non-minimal adaptive routing for network load-balancing when adversarial traffic patterns are encountered. Source adaptive routing is the predominant method for adaptive routing even though it presents many deficiencies related to making global decisions based solely on local information. In contrast, incremental adaptive routing, which performs an adaptive decision at every hop, is able to increase throughput and reduce latency by overcoming the deficiencies of source adaptive routing. We present two incremental adaptive routing algorithms for HyperX which are the first to be fully implementable in modern high-radix router architectures and interconnection network protocols. Using cycle accurate simulations of a 4,096 node network, our evaluation shows these algorithms are able to exceed the performance of prior work by as much as 4x with synthetic traffic and 25% with 27-point stencil traffic.
 
 # Summary. An optional shortened abstract.
-summary: We present SuperSim, an open-source flit-level interconnection network simulator for large-scale high-performance networks.
+summary: We present two practical and efficient incremental adaptive routing algorithms for HyperX.
 
 tags:
 - Networks
