@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2019-01-01"
   date_end = ""
   description = """
-Designing, analyzing, and developing next generation high performance networks of all shapes and sizes.
+I work in the system infrastructure team specifically on tightly-coupled high-performance network technologies covering topologies, routing algorithms, network acceleration and offloading, processing architectures, and more.
 """
 
 [[experience]]

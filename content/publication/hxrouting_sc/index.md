@@ -35,7 +35,7 @@ featured: true
 #- name: Custom Link
 #  url: http://example.org
 url_pdf: pubs/nicmcdonald_hxrouting_sc_2019.pdf
-#url_slides: pubs/nicmcdonald_hxrouting_sc_2019_slides.pdf
+url_slides: pubs/nicmcdonald_hxrouting_sc_2019_slides.pdf
 #url_code:
 #url_dataset:
 #url_poster:
