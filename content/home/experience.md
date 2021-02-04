@@ -18,14 +18,25 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Senior Research Scientist"
+  company = "Nvidia"
+  company_url = "https://research.nvidia.com/"
+  location = "Salt Lake City, Utah"
+  date_start = "2021-02-01"
+  date_end = ""
+  description = """
+I work in the network research group at Nvidia Research.
+"""
+
+[[experience]]
   title = "Senior Software Engineer"
   company = "Google"
   company_url = "https://ai.google/research/teams/network-systems/"
   location = "Sunnyvale, California"
   date_start = "2019-01-01"
-  date_end = ""
+  date_end = "2021-01-29"
   description = """
-I work in the system infrastructure team specifically on tightly-coupled high-performance network technologies covering topologies, routing algorithms, network acceleration and offloading, processing architectures, and more.
+I worked in the system infrastructure team specifically on tightly-coupled high-performance network technologies covering topologies, routing algorithms, network acceleration and offloading, congestion control, processing architectures, and more.
 """
 
 [[experience]]

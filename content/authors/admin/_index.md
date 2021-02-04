@@ -14,8 +14,8 @@ role: Software and Hardware Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: Google
-  url: https://ai.google/research/teams/network-systems/
+- name: Nvidia
+  url: https://research.nvidia.com
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a computer architecture research scientist and software/hardware engineer.
@@ -79,4 +79,4 @@ user_groups:
 - Visitors
 ---
 
-I am a computer architecture research scientist and software/hardware engineer. I am a senior software engineer in the [Network Infrastructure](https://ai.google/research/teams/network-systems/) team at [Google](https://www.google.com) working on next generation hardware and software systems for Google networks.
+I am a computer architecture research scientist and software/hardware engineer. I am a senior research scientist at [Nvidia Research](https://research.nvidia.com) working on next generation hardware and software systems for Nvidia networks.
